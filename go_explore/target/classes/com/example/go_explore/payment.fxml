@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="514.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.go_explore.PaymentController">
+   <children>
+      <AnchorPane prefHeight="628.0" prefWidth="200.0" style="-fx-background-color: orange;">
+         <children>
+            <Button fx:id="loginButton" layoutX="56.0" layoutY="578.0" mnemonicParsing="false" onAction="#log" prefHeight="26.0" prefWidth="87.0" text="Home" />
+         </children></AnchorPane>
+      <Label layoutX="307.0" layoutY="30.0" text="PAYMENT">
+         <font>
+            <Font name="Dubai Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="283.0" layoutY="152.0" prefHeight="26.0" prefWidth="209.0" promptText="Enter Name" />
+      <Label layoutX="207.0" layoutY="155.0" text="Name:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="196.0" prefHeight="20.0" prefWidth="41.0" text="Email:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailField" layoutX="283.0" layoutY="193.0" prefHeight="26.0" prefWidth="209.0" promptText="Enter Email" />
+      <Label layoutX="205.0" layoutY="234.0" prefHeight="20.0" prefWidth="42.0" text="NID:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nidField" layoutX="283.0" layoutY="231.0" prefHeight="26.0" prefWidth="209.0" promptText="Enter NID" />
+      <Label layoutX="207.0" layoutY="276.0" prefHeight="20.0" prefWidth="70.0" text="Nationality:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nationalityField" layoutX="282.0" layoutY="273.0" prefHeight="26.0" prefWidth="210.0" promptText="Enter Nationality" />
+      <Label layoutX="207.0" layoutY="324.0" prefHeight="20.0" prefWidth="55.0" text="Package:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="packageField" layoutX="282.0" layoutY="321.0" prefHeight="26.0" prefWidth="210.0" promptText="Enter Package Name" />
+      <Label layoutX="207.0" layoutY="369.0" prefHeight="20.0" prefWidth="55.0" text="Amount:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="amountField" layoutX="282.0" layoutY="366.0" prefHeight="26.0" prefWidth="210.0" promptText="Enter Amount" />
+      <Label layoutX="207.0" layoutY="412.0" prefHeight="20.0" prefWidth="55.0" text="BKash :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tidField" layoutX="282.0" layoutY="458.0" prefHeight="26.0" prefWidth="210.0" promptText="Enter Transaction ID" />
+      <Label layoutX="207.0" layoutY="461.0" prefHeight="20.0" prefWidth="55.0" text="TID :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="bkashField" layoutX="282.0" layoutY="409.0" prefHeight="26.0" prefWidth="210.0" promptText="Enter Number" />
+      <Button fx:id="submitButton" layoutX="343.0" layoutY="527.0" mnemonicParsing="false" text="SUBMIT" />
+   </children>
+</AnchorPane>
